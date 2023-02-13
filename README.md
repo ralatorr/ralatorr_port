@@ -41,9 +41,19 @@ Pollution has long been known to have a causal effect on negative health outcome
 
 ### Energy Demand and Price Forecasting
 #### Problem Statement
-A private energy trading firm in Mexico wants you to make a model that predicts the price of energy.
-The Mexican wholesale energy market is so new that the managing directors of the firm are convinced there are arbitrage opportunities to take advantage of.
-But in order to fully take advantage of them, they need better estimates than those of their competitors.
+
+The government of Mexico has contracted you out as an energy markets consultant, and would like for you to develop models predicting energy prices in the Northeast region of the country. Coincidentally, you happen to be from Monterrey, the region's center of gravity when it comes to population size. You set out to see if you can, from the comfort of your apartment, build a model that can predict the price of energy reliably. You will, if time permits, also see if novel approaches in machine learning, such as LSTM RNNs, might allow the government to more reliably estimate the demand for energy.
+
+#### Data Sets
+
+All energy demand, generation, and price data was pulled from APIs and databases that Mexico's National Center for Energy Control (CENACE) maintains. Weather data corresponding to Monterrey was also pulled from the OpenWeatherAPI on the intuition that weather can drive energy demand.
+
+When it came to CENACE's energy price and demand data, we selected weighted price data corresponding to the region on the Mexican National Grid that Monterrey is in, as well as data on aggregate demand for energy within that region. When it came to generation, we got our hands on generation data at the national level, on the understanding that this generation all goes into the same grid. All generation, demand, and price data covers the period from 2019-2022 inclusive. So does the weather data. 
+
+#### Conclusions
+
+Of the two energy price models, it was our Random Forest Regressor model that did the best, achieving a RMSE < 300 MXN.
+Our LTSM model, on the other hand, performed poorly against the government's own demand estimates, with an average MAPE score that was roughly 2x higher than the government forecast average MAPE score.
 
 #### Link to Project
 [Energy Demand and Price Forecasting](https://github.com/ralatorr/ralatorr.github.io/tree/main/Energy_Forecasting)
