@@ -89,5 +89,5 @@ Our LTSM model, on the other hand, had an average MAPE score that was roughly 2x
 
 ## Contact
 Contact me at the following:
-- email: ralatorr@chicagobooth.edu
+- email: [ralatorr@chicagobooth.edu](ralatorr@chicagobooth.edu)
 - LinkedIn: [https://www.linkedin.com/in/ricardoalatorre/](https://www.linkedin.com/in/ricardoalatorre/)
