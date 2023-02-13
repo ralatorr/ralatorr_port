@@ -5,7 +5,7 @@
 My name is Ricardo Alatorre, and I am a native of Monterrey, Nuevo León, México. Recently, I decided pivot into data science and take on General Assembly's Data Science Immersive. I'm currently searching for data science roles focused on energy, technology, and retail.
 
 ### Educational Background
-- Certificate, Data Science, General Assembly (2022-2023)
+- Certificate, Data Science, General Assembly
 - University of Chicago Booth School of Business
   - M.B.A. (Econometrics & Statistics, Operations Management, and Analytic Finance)
 - Columbia College, Columbia University
