@@ -36,6 +36,11 @@ But today is not that day. You propose to write a computer program that takes tr
 #### Problem Statement
 Pollution has long been known to have a causal effect on negative health outcomes. Our group's goal was to use various statistical hypothesis tests as well as exploratory data analysis and regression analysis to gain a stronger quantitative understanding of the effects of air pollution amongst the 58 counties of California.
 
+#### Conclusions
+
+1. Fine air particulate matter (PM 2.5)  had a statistically significant influence on deaths from heart disease, cancer and respiratory illnesses in the most polluted counties in California from 1999-2021. 
+2. Time-series analysis allowed us to predict statewide cancer incidence rates for a handful of cancer types with MAPE rates at roughly 1.5%, with PM2.5, NO2 and Ozone often driving increases in incidence rates, but results should be taken with a grain of salt - aggregated data involved merely 20 year-by-year observations.
+
 #### Link to Project
 [California Health Outcomes Project](https://github.com/ralatorr/ralatorr.github.io/tree/main/Health_Outcomes)
 
@@ -53,7 +58,7 @@ When it came to CENACE's energy price and demand data, we selected weighted pric
 #### Conclusions
 
 Of the two energy price models, it was our Random Forest Regressor model that did the best, achieving a RMSE < 300 MXN.
-Our LTSM model, on the other hand, performed poorly against the government's own demand estimates, with an average MAPE score that was roughly 2x higher than the government forecast average MAPE score.
+Our LTSM model, on the other hand, had an average MAPE score that was roughly 2x higher than the government forecast average MAPE score.
 
 #### Link to Project
 [Energy Demand and Price Forecasting](https://github.com/ralatorr/ralatorr.github.io/tree/main/Energy_Forecasting)
