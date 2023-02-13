@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-The government of Mexico has contracted you out as an energy markets consultant, and would like for you to develop models predicting energy prices in the Northeast region of the country. Coincidentally, you happen to be from Monterrey, the region's center of gravity when it comes to population size. You set out to see if you can, from the comfort of your apartment, build a model that can predict the price of energy reliably. You will, if time permits, also see if novel approaches in machine learning, such as LTSM RNNs, might allow the government to more reliably estimate the demand for energy.
+The government of Mexico has contracted you out as an energy markets consultant, and would like for you to develop models predicting energy prices in the Northeast region of the country. Coincidentally, you happen to be from Monterrey, the region's center of gravity when it comes to population size. You set out to see if you can, from the comfort of your apartment, build a model that can predict the price of energy reliably. You will, if time permits, also see if novel approaches in machine learning, such as LSTM RNNs, might allow the government to more reliably estimate the demand for energy.
 
 ## Data Sets
 
@@ -21,5 +21,5 @@ This project repo contains 4 notebooks:
 
 ## Conclusions
 
-Of the two energy price models, it was our Random Forest Regressor model that did the best, achieving a RMSE < 300
+Of the two energy price models, it was our Random Forest Regressor model that did the best, achieving a RMSE < 300 MXN.
 Our LTSM model, on the other hand, performed poorly against the government's own demand estimates, with an average MAPE score that was roughly 2x higher than the government forecast average MAPE score.
