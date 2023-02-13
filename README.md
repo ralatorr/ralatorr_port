@@ -9,8 +9,10 @@ My name is Ricardo Alatorre, and I am a native of Monterrey, Nuevo León, Méxic
 
 ### Educational Background
 - Certificate, Data Science, General Assembly [2022-2023]
-- M.B.A. (Econometrics and Statistics, Operations Management, and Analytic Finance), University of Chicago Booth School of Business [2019-2021]
-- B.A. (Mathematics), Columbia College, Columbia University [2010-2014]
+- University of Chicago Booth School of Business
+  - M.B.A, Econometrics & Statistics, Operations Management, & Analytic Finance
+- Columbia College, Columbia University
+  - B.A., Mathematics  
 
 ## Professional Background / CV
 
