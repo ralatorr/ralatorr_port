@@ -22,4 +22,4 @@ This project repo contains 4 notebooks:
 ## Conclusions
 
 Of the two energy price models, it was our Random Forest Regressor model that did the best, achieving a RMSE < 300 MXN.
-Our LTSM model, on the other hand, performed poorly against the government's own demand estimates, with an average MAPE score that was roughly 2x higher than the government forecast average MAPE score.
+Our LSTM model, on the other hand, performed poorly against the government's own demand estimates, with an average MAPE score that was roughly 2x higher than the government forecast average MAPE score.

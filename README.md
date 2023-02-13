@@ -2,11 +2,11 @@
 
 ## About Me
 
-My name is Ricardo Alatorre, and I am a native of Monterrey, Nuevo León, México, where I've lived most of my life. I've also spent portions of my life in the United States, first as a college student in New York City, then as a business school student and senior program manager in Chicago. A committed student of mathematics, I've taken steps to develop my skills in quantitative modeling throughout the course of my career and have recently decided to pivot into data science, completing General Assembly's Data Science Immersive program in February 2023. I'm currently searching for roles in supply chain, energy, and retail.
+My name is Ricardo Alatorre, and I am a native of Monterrey, Nuevo León, México, where I've lived most of my life. I've also spent portions of my life in the United States, first as a college student in New York City, then as a business school student and senior program manager in Chicago. A committed student of mathematics, I've taken steps to develop my skills in quantitative modeling throughout the course of my career and have recently decided to pivot into data science, completing General Assembly's Data Science Immersive program in February 2023. I'm currently searching for data scientist roles in supply chain, energy, and retail.
 
-Outside of work, I spend most of my leisure time cooking, gardening, and reading. I'm currently reading The Topeka School by Ben Lerner.
+Outside of work, I spend most of my leisure time cooking, gardening, and reading. I find that all three activities serve to put me at ease, cooking in particular. Lately I've been focsuing on preparing large quantities of curry over the weekends to give me something warm to eat on winter weekdays. When it comes to reading, I'm currently working my way through Normal People by Sally Rooney.
 
-I do my best to maintain an active lifestyle, and try to run 3mi a few times a week.
+I do my best to maintain an active lifestyle, and generally make sure I run 3 miles a few times a week. I hope to be going back to the gym to lift more consistently very soon as well.
 
 ### Educational Background
 - Certificate, Data Science, General Assembly
@@ -89,5 +89,5 @@ Our LTSM model, on the other hand, had an average MAPE score that was roughly 2x
 
 ## Contact
 Contact me at the following:
-- email: ralatorr@chicagobooth.edu
+- email: [ralatorr@chicagobooth.edu](ralatorr@chicagobooth.edu)
 - LinkedIn: [https://www.linkedin.com/in/ricardoalatorre/](https://www.linkedin.com/in/ricardoalatorre/)
