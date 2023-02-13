@@ -29,6 +29,7 @@ Exposure to these particulates has been found to lead to negative cardiovascular
 
 # Summary
 
+We chose to evaluate the effects toxic air pollution on three health outcomes, mortality, low birth weight and cancer incidence. 
 We chose to evaluate the effects of toxic air pollution on three health outcomes, mortality, low birth weight and cancer incidence.
 
 ### Mortality
@@ -50,24 +51,38 @@ The results showed marginal success but also much noise. We found that:
 In all of the above models the regression coefficients indicated a negative relationship between good air quality days and a positive relationship between days with elevated levels of fine particulate matter, with p-values less than $.05$ for all coefficients. 
 
 
--- JACK PORTION
-We conducted an analysis of the relationship between air quality and low birthweight in California. The data was collected from 2010 to 2021 and included county level information. Our initial analysis used a linear regression model with the air quality independent variables mentioned earlier in this summary.
+### Low Birthrate Data & its Relationship with Air quality  
+We conducted an analysis of the relationship between air quality and low birthweight in California. The data was collected from 2010 to 2022 and included county level information. Our initial analysis used a linear regression model with the air quality independent variables mentioned earlier in this summary.
 
 However, due to the large number of variables and the presence of multicollinearity, we decided to perform a Lasso regression using LassoCV.
 
 Our final model included the following independent variables:
 
-'good days'
-'max aqi'
-'90th percentile aqi'
-'days ozone'
-'days pm10'
+1. 'good days'
+2. 'max aqi'
+3. '90th percentile aqi'
+4. 'days ozone'
+5. 'days pm10'
 
-We found that 'good days' had a negative relationship with low birthweight as measured by a negative coefficient, while 'max aqi', '90th percentile aqi', and 'days ozone' had positive coefficients. 'Days pm10' had a strong negative coefficient, which may be explained removing the other contaminants from the original first model. The R-squared of the regression was 54.3%, and thus we focused our resourses on the other more successful datasets.
+We found that 'good days' had a negative relationship with low birthweight as measured by a negative coefficient, while 'max aqi', '90th percentile aqi', and 'days ozone' had positive coefficients. 'Days pm10' had a strong negative coefficient, which may be explained removing the other contaminants from the original first model. 
 
-INSERT MORE
+The R-squared of the regression was 54.3%, and consequentially we chose to focus our resourses on the other more successful datasets for which we had promising modelling efforts.
 
-# Conclusion
+### Relationship between Air Quality and Cancer Incidence
+Finally, we conducted an analysis of the relationship between air quality and the incidence of several varieties of cancer in the state of California. While county-level information on cancer incidence rates is made available by the National Institutes of Health and the CDC, it is aggregated across 2015-2019 ([Source](https://statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=06&areatype=county&cancer=047&race=00&sex=0&age=001&stage=211&year=0&type=incd&sortVariableName=count&sortOrder=desc#results)). Year-by-year incidence rates are also available, but are aggregated at the state level ([Source](https://gis.cdc.gov/Cancer/USCS/#/Trends/)). To perform our analysis, we weighted county-level air quality data by the proportion of the state's population a given county represents in order to arrive at a weighted average of air quality measures for the entire state for the years 2000-2019.
 
-INSERT MORE
+We leveraged this data to create series of Autoregressive Integrated Moving Average Models with Exogenous regressors (ARIMAX models) that integrated time series data on cancer incidence rates and time series data on air quality measures for several different types of cancer.
 
+Our models suggested a statistically significant direct relationship between days featuring with high concentrations of NO2, Ozone, and PM2.5 and the incidence of certain types of cancer, among them:
+
+1. Cancer of the Oral Cavity and Pharynx
+2. Pancreatic Cancer
+3. Cervical Cancer
+4. Female Breast Cancer
+
+The models corresponding to these varieties of cancer did a decent job of predicting cancer incidence rates, often sporting Mean Absolute Percentage Error (MAPE) scores of rougly 1-2%. However, our results are qualified by the fact that our state-level cancer incidence and air quality data had been aggregated in such a way so as to provide only 20 observations to work with (corresponding to the years 2000-2019).
+
+# Conclusions
+
+1. Fine air particulate matter (PM 2.5)  had a statistically significant influence on deaths from heart disease, cancer and respiratory illnesses in the most polluted counties in California from 1999-2021. 
+2. Time-series analysis allowed us to predict statewide cancer incidence rates for a handful of cancer types with MAPE rates at roughly 1.5%, with PM2.5, NO2 and Ozone often driving increases in incidence rates, but results should be taken with a grain of salt - aggregated data involved merely 20 year-by-year observations.
