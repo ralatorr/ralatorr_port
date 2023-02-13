@@ -1,0 +1,98 @@
+Incidence Rate Report for California by County
+
+"Prostate (All Stages^), 2015-2019"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,"Age-Adjusted Incidence Rate([rate note]) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval","CI*Rank([rank note])","Lower CI (CI*Rank)","Upper CI (CI*Rank)",Average Annual Count,Recent Trend,"Recent 5-Year Trend ([trend note]) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"California(7)",06000,95.2 ,94.6, 95.8,N/A , 43 , 47,20180,stable,1.5 ,-1.3, 4.3
+"US (SEER+NPCR)(1)",00000,109.9 ,109.7, 110.2,N/A , N/A , N/A,211245,stable,1.9 ,-0.8, 4.6
+"Glenn County(7)",06021,130.5 ,107.2, 157.7,1 , 1 , 24,23,stable,-2.4 ,-4.8, 0.0
+"San Luis Obispo County(7)",06079,118.3 ,111.6, 125.4,2 , 1 , 9,242,stable,3.3 ,-2.0, 8.8
+"Santa Barbara County(7)",06083,117.5 ,111.4, 123.9,3 , 1 , 9,284,rising,9.0 ,4.8, 13.3
+"Santa Cruz County(7)",06087,113.2 ,105.9, 121,4 , 1 , 16,195,rising,12.1 ,3.7, 21.3
+"Placer County(7)",06061,111.4 ,105.7, 117.3,5 , 1 , 15,293,falling,-3.0 ,-3.6, -2.4
+"San Benito County(7)",06069,111.2 ,94.8, 129.7,6 , 1 , 39,35,falling,-2.5 ,-4.5, -0.5
+"Butte County(7)",06007,110.2 ,102.6, 118.4,7 , 1 , 21,163,falling,-3.7 ,-4.8, -2.5
+"Ventura County(7)",06111,109.6 ,105.5, 114,8 , 3 , 15,542,rising,6.7 ,1.1, 12.7
+"San Bernardino County(7)",06071,107.1 ,104.1, 110.1,9 , 5 , 16,1076,stable,0.6 ,-3.9, 5.4
+"Marin County(7)",06041,104.6 ,98.4, 111.3,10 , 4 , 26,214,rising,9.0 ,0.8, 17.8
+"San Diego County(7)",06073,104.3 ,102.1, 106.5,11 , 8 , 19,1820,stable,3.1 ,-0.5, 6.9
+"Amador County(7)",06005,103 ,88.8, 119.5,12 , 1 , 45,39,falling,-3.4 ,-5.2, -1.7
+"Shasta County(7)",06089,102.8 ,95.1, 111.1,13 , 4 , 31,137,falling,-3.7 ,-4.8, -2.7
+"El Dorado County(7)",06017,102.5 ,95.4, 110.2,14 , 4 , 30,161,falling,-3.9 ,-4.8, -2.9
+"Nevada County(7)",06057,100.7 ,91.6, 110.8,15 , 3 , 38,97,falling,-3.7 ,-4.6, -2.8
+"Riverside County(7)",06065,100.4 ,97.9, 102.9,16 , 11 , 25,1313,falling,-3.3 ,-3.7, -2.9
+"Monterey County(7)",06053,100.4 ,94.4, 106.6,17 , 6 , 32,220,stable,3.9 ,-2.5, 10.6
+"Kern County(7)",06029,99.9 ,95.4, 104.5,18 , 9 , 29,395,falling,-2.2 ,-3.0, -1.4
+"Contra Costa County(7)",06013,99.8 ,96.4, 103.3,19 , 11 , 27,671,falling,-4.9 ,-6.2, -3.6
+"Imperial County(7)",06025,99.4 ,90.1, 109.4,20 , 4 , 41,85,falling,-2.0 ,-3.4, -0.6
+"Orange County(7)",06059,98.7 ,96.6, 100.9,21 , 13 , 27,1732,rising,3.6 ,0.2, 7.2
+"Tehama County(7)",06103,97.9 ,85.2, 112.1,22 , 2 , 49,44,falling,-2.8 ,-4.7, -0.9
+"Calaveras County(7)",06009,95.6 ,82.9, 110.3,23 , 3 , 50,44,falling,-3.4 ,-4.9, -2.0
+"San Mateo County(7)",06081,95.2 ,91.1, 99.4,24 , 14 , 35,429,stable,2.4 ,-3.3, 8.4
+"Yuba County(7)",06115,93.9 ,80.1, 109.5,25 , 3 , 51,35,rising,16.8 ,2.0, 33.6
+"Sutter County(7)",06101,93.5 ,82.3, 105.9,26 , 5 , 50,51,falling,-1.6 ,-3.1, -0.1
+"Plumas County(7)",06063,93.3 ,75, 116.6,27 , 1 , 54,19,falling,-3.8 ,-5.7, -1.8
+"Solano County(7)",06095,93.1 ,87.8, 98.7,28 , 15 , 41,243,stable,4.6 ,-3.9, 13.9
+"Stanislaus County(7)",06099,92.7 ,87.5, 98.1,29 , 15 , 42,251,rising,5.0 ,0.5, 9.6
+"Alameda County(7)",06001,92.2 ,89.3, 95.1,30 , 21 , 37,824,stable,1.5 ,-5.2, 8.8
+"Sonoma County(7)",06097,90.7 ,86.2, 95.4,31 , 20 , 43,319,stable,4.3 ,-4.1, 13.5
+"Humboldt County(7)",06023,90.6 ,81.7, 100.2,32 , 12 , 49,82,stable,4.5 ,-7.0, 17.5
+"Los Angeles County(7)",06037,89.8 ,88.7, 91,33 , 27 , 39,4621,stable,-0.2 ,-3.1, 2.7
+"Tulare County(7)",06107,89.7 ,83.8, 95.8,34 , 19 , 46,182,falling,-3.7 ,-4.2, -3.1
+"Mendocino County(7)",06045,87.8 ,77.7, 98.9,35 , 11 , 52,60,stable,0.0 ,-8.8, 9.7
+"Santa Clara County(7)",06085,86.7 ,84.1, 89.3,36 , 29 , 45,868,stable,2.6 ,-1.7, 7.1
+"San Joaquin County(7)",06077,86.6 ,82.2, 91.1,37 , 26 , 48,316,stable,2.3 ,-2.4, 7.1
+"Fresno County(7)",06019,86.3 ,82.4, 90.3,38 , 27 , 48,392,stable,3.1 ,-6.1, 13.2
+"Kings County(7)",06031,84.6 ,74.2, 95.9,39 , 15 , 53,51,falling,-4.3 ,-5.6, -3.0
+"Napa County(7)",06055,84.4 ,76.4, 93.2,40 , 22 , 52,82,stable,6.2 ,-6.7, 21.0
+"Sacramento County(7)",06067,82.4 ,79.6, 85.3,41 , 35 , 50,669,stable,2.9 ,-2.4, 8.4
+"Merced County(7)",06047,81.8 ,74.6, 89.5,42 , 25 , 53,100,stable,7.6 ,-1.3, 17.3
+"Madera County(7)",06039,81.7 ,73.2, 91.1,43 , 23 , 53,69,falling,-4.3 ,-5.3, -3.3
+"Lassen County(7)",06035,81.5 ,63.2, 103.4,44 , 5 , 56,15,stable,-1.9 ,-4.7, 1.0
+"Mono County(7)",06051,81.2 ,57.6, 112.4,45 , 2 , 56,9,stable,-2.4 ,-6.9, 2.3
+"Lake County(7)",06033,80.7 ,70.1, 92.7,46 , 20 , 54,44,falling,-3.1 ,-4.7, -1.3
+"Yolo County(7)",06113,80.5 ,72.8, 88.9,47 , 27 , 53,82,stable,8.8 ,-0.7, 19.3
+"San Francisco County(7)",06075,80.3 ,76.8, 83.9,48 , 37 , 52,410,stable,-0.6 ,-5.5, 4.6
+"Tuolumne County(7)",06109,79.6 ,68.6, 92.2,49 , 21 , 55,41,falling,-6.3 ,-7.5, -5.1
+"Del Norte County(7)",06015,75 ,57.5, 96.3,50 , 12 , 56,13,falling,-3.8 ,-6.7, -0.8
+"Colusa County(7)",06011,73.2 ,53.2, 98.6,51 , 6 , 56,9,stable,-2.1 ,-4.5, 0.3
+"Mariposa County(7)",06043,72.1 ,54.7, 95.2,52 , 12 , 56,13,falling,-4.4 ,-6.3, -2.6
+"Siskiyou County(7)",06093,65.1 ,54, 78.4,53 , 40 , 56,26,falling,-8.6 ,-11.6, -5.6
+"Inyo County(7)",06027,63.5 ,47.4, 84.8,54 , 29 , 56,11,falling,-13.3 ,-20.4, -5.6
+"Trinity County(7)",06105,61.9 ,44.5, 87.1,55 , 25 , 56,9,falling,-4.2 ,-6.9, -1.5
+"Modoc County(7)",06049,57.1 ,35.5, 90.5,56 , 21 , 56,5,*,*,*,*
+"Alpine County(7)",06003,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+"Sierra County(7)",06091,* ,*, *,* , * , *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 01/16/2023 11:04 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"[rate note] Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"[trend note] Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+"[rank note]Results presented with the CI*Rank statistics help show the usefulness of ranks. For example, ranks for relatively rare diseases or less populated areas may be essentially meaningless because of their large variability, but ranks for more common diseases in densely populated regions can be very useful. More information about methodology can be found on the CI*Rank website."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+"1 Source: National Program of Cancer Registries [ https://www.cdc.gov/cancer/npcr/index.htm ] and Surveillance, Epidemiology, and End Results [ http://seer.cancer.gov ] SEER*Stat Database (2001-2019) - United States Department of Health and Human Services, Centers for Disease Control and Prevention and National Cancer Institute. Based on the 2021 submission."
+7 Source: SEER November 2021 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2021 data. "
+
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for the United States does not include data from Nevada.
+Data for the United States does not include Puerto Rico.
