@@ -1,4 +1,4 @@
-# Capstone Project: Energy Market Forecasting
+# Capstone Project: Energy Demand and Price Forecasting
 
 ## Problem Statement
 
@@ -17,7 +17,9 @@ This project repo contains 4 notebooks:
 1. API Wrangling and EDA: Contains code for generating CENACE API calls and filtering their results.
 2. A. Energy Price Modeling (ARIMAX): Contains code for modeling energy prices via an ARIMAX model.
 2. B. Energy Price Modeling (ML): Contains code for modeling energy prices via a Random Forest Regressor, and compares said model's performance against a Linear Regression, a Ridge Regression, and a XGBoost model., 
-2. C. Energy Price Demand Modeling (LTSM): Contains code for modeling energy demand via a LTSM RNN.
+2. C. Energy Price Demand Modeling (LSTM): Contains code for modeling energy demand via a Long Short Term Memory (LSTM) RNN.
 
-Of the two energy price models, it was XXXXXX that did better, achieving a RMSE < 300
+## Conclusions
+
+Of the two energy price models, it was our Random Forest Regressor model that did the best, achieving a RMSE < 300
 Our LTSM model, on the other hand, performed poorly against the government's own demand estimates, with an average MAPE score that was roughly 2x higher than the government forecast average MAPE score.
