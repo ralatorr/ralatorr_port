@@ -2,7 +2,11 @@
 
 ## About Me
 
-My name is Ricardo Alatorre, and I am a native of Monterrey, Nuevo León, México. Recently, I decided pivot into data science and take on General Assembly's Data Science Immersive. I'm currently searching for data science roles focused on energy, technology, and retail.
+My name is Ricardo Alatorre, and I am a native of Monterrey, Nuevo León, México, where I've lived most of my life. I've also spent portions of my life in the United States, first as a college student in New York City, then as a business school student and senior program manager in Chicago. A committed student of mathematics, I've taken steps to develop my skills in quantitative modeling throughout the course of my career and have recently decided to pivot into data science, completing General Assembly's Data Science Immersive program in February 2023. I'm currently searching for roles in supply chain, energy, and retail.
+
+Outside of work, I spend most of my leisure time cooking, gardening, and reading. I'm currently reading The Topeka School by Ben Lerner.
+
+I do my best to maintain an active lifestyle, and try to run 3mi a few times a week.
 
 ### Educational Background
 - Certificate, Data Science, General Assembly
