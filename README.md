@@ -29,8 +29,32 @@ After watching the US exit the World Cup, your American friends have decided to 
 You do not watch sports because you are a nerd and you like computers more, so you get a cheeky idea that is sure to annoy both sides. You tell them both fandoms are equally silly and simple-minded. Years from now, you will cringe at your use of the term "sportsball" and realize people don't talk to you at the water cooler because you're kind of tedious.
 
 But today is not that day. You propose to write a computer program that takes training data in the form of Reddit forum posts corresponding to the NHL and the NBA, and you bet twenty dollars your computer program can correctly guess who wrote it - someone posting on r/NHL or someone posting on r/NBA. While your friends appreciate the awesome power of computers, they're not totally convinced that computers can process language in this specific way yet. What's your computer program going to do? Count words? Seems foolish.
+
+#### Summary of Findings
+
+After performing some data cleaning and EDA, we found that roughly half of all submissions did not have bodies of text to process, although there was plenty of text data in submission titles that aided our modeling. Thus, the Titles and Selftext fields were appended together into a Fulltext column before being vectorized through TfidfVectorizer.
+
+Three basic models were tested, with the following results:
+Model (Train Score, Test Score)
+
+    - Logistic Regression (97.6%, 94.2%)
+        - LR, GridSearch (99%, 94.7%)
+    - k-Nearest Neighbors (53%, 51%)
+        - kNN, GridSearch (100%, 55%)
+    - Random Forest (96.1%, 92.4%)
+        - RF, Gridsearch (96.2, 91.0%)
+    
+Our most successful model turned out to be Logistic Regression under GridSearch, sporting the following classification metrics:
+
+     - Accuracy (94.8%): Percentage of obsservations the model correctly predicted.
+     - Misclassification Rate (5.2%): Percentage of observations the model incorrectly predicted.
+     - Sensitivity (96.5%): Rate of True Positives vs All Positives (r/NHL)
+     - Specificity (93.1%): Rate of True Negatives vs All Negatives (r/NBA)
+     - Precision (93.4%): Rate of True Positives vs Predicted Positives (r/NHL)
+
+
 #### Link to Project
-[NLP Reddit Classification Project](https://github.com/ralatorr/ralatorr.github.io/tree/main/Reddit_Classification)
+[NLP Reddit Classification](https://github.com/ralatorr/ralatorr.github.io/tree/main/Reddit_Classification)
 
 ### California Health Outcomes
 #### Problem Statement
@@ -42,7 +66,7 @@ Pollution has long been known to have a causal effect on negative health outcome
 2. Time-series analysis allowed us to predict statewide cancer incidence rates for a handful of cancer types with MAPE rates at roughly 1.5%, with PM2.5, NO2 and Ozone often driving increases in incidence rates, but results should be taken with a grain of salt - aggregated data involved merely 20 year-by-year observations.
 
 #### Link to Project
-[California Health Outcomes Project](https://github.com/ralatorr/ralatorr.github.io/tree/main/Health_Outcomes)
+[California Health Outcomes](https://github.com/ralatorr/ralatorr.github.io/tree/main/Health_Outcomes)
 
 ### Energy Demand and Price Forecasting
 #### Problem Statement
