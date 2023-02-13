@@ -1,6 +1,3 @@
-# ralatorr.github.io
-Ricardo Alatorre's Data Science Portfolio
-
 # Ricardo Alatorre | Data Scientist | Chicago Booth MBA
 
 ## About Me
