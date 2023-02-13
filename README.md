@@ -20,5 +20,5 @@ A PDF copy of my resume can be found [HERE].
 
 ## Contact
 Contact me at the following:
--email: ralatorr@chicagobooth.edu
--LinkedIn: [https://www.linkedin.com/in/ricardoalatorre/](https://www.linkedin.com/in/ricardoalatorre/)
+- email: ralatorr@chicagobooth.edu
+- LinkedIn: [https://www.linkedin.com/in/ricardoalatorre/](https://www.linkedin.com/in/ricardoalatorre/)
