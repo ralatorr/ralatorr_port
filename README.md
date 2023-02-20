@@ -26,7 +26,7 @@ A PDF copy of my resume can be found here: [Ricardo Alatorre's Resume (PDF)](htt
 #### Problem Statement
 After leveraging Pushshift API, we managed to collect several thousand posts from both the r/NBA and r/NHL subreddits. We then set out to build a model that would allow us to correctly classify a given post as having originated on either r/NBA or r/NHL. The exercise would serve as our first application of Natural Language Processing (NLP).
 
-#### Summary of Findings
+#### Conclusions
 
 After performing some data cleaning and EDA, we found that roughly half of all submissions did not have bodies of text to process, although there was plenty of text data in submission titles that aided our modeling. Thus, the Titles and Selftext fields were appended together into a Fulltext column before being vectorized through TfidfVectorizer.
 
