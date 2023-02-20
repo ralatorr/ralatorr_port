@@ -24,11 +24,7 @@ A PDF copy of my resume can be found here: [Ricardo Alatorre's Resume (PDF)](htt
 ## Project Portfolio
 ### NLP Reddit Classification
 #### Problem Statement
-After watching the US exit the World Cup, your American friends have decided to get into an argument at the cookout over what kind of sporting events they like to follow and why. Chief among their concerns is the question of which fandom is more annoying online - hockey fans or basketball fans. Naturally, each warring faction has decided to double down on the idea that it's actually the other fandom can stereotyped via their mannerisms, turns of phrase, and foolish notions of what makes for good sportsmanship.
-
-You do not watch sports because you are a nerd and you like computers more, so you get a cheeky idea that is sure to annoy both sides. You tell them both fandoms are equally silly and simple-minded. Years from now, you will cringe at your use of the term "sportsball" and realize people don't talk to you at the water cooler because you're kind of tedious.
-
-But today is not that day. You propose to write a computer program that takes training data in the form of Reddit forum posts corresponding to the NHL and the NBA, and you bet twenty dollars your computer program can correctly guess who wrote it - someone posting on r/NHL or someone posting on r/NBA. While your friends appreciate the awesome power of computers, they're not totally convinced that computers can process language in this specific way yet. What's your computer program going to do? Count words? Seems foolish.
+After leveraging Pushshift API, we managed to collect several thousand posts from both the r/NBA and r/NHL subreddits. We then set out to build a model that would allow us to correctly classify a given post as having originated on either r/NBA or r/NHL. The exercise would serve as our first application of Natural Language Processing (NLP).
 
 #### Summary of Findings
 
@@ -62,6 +58,8 @@ Pollution has long been known to have a causal effect on negative health outcome
 
 #### Conclusions
 
+After careful review of the data, we found the following:
+
 1. Fine air particulate matter (PM 2.5)  had a statistically significant influence on deaths from heart disease, cancer and respiratory illnesses in the most polluted counties in California from 1999-2021. 
 2. Time-series analysis allowed us to predict statewide cancer incidence rates for a handful of cancer types with MAPE rates at roughly 1.5%, with PM2.5, NO2 and Ozone often driving increases in incidence rates, but results should be taken with a grain of salt - aggregated data involved merely 20 year-by-year observations.
 
@@ -71,18 +69,17 @@ Pollution has long been known to have a causal effect on negative health outcome
 ### Energy Demand and Price Forecasting
 #### Problem Statement
 
-The government of Mexico has contracted you out as an energy markets consultant, and would like for you to develop models predicting energy prices in the Northeast region of the country. Coincidentally, you happen to be from Monterrey, the region's center of gravity when it comes to population size. You set out to see if you can, from the comfort of your apartment, build a model that can predict the price of energy reliably. You will, if time permits, also see if novel approaches in machine learning, such as LSTM RNNs, might allow the government to more reliably estimate the demand for energy.
-
-#### Data Sets
+After the energy market reforms of 2013, Mexico has seen its energy sector open up to private and foreign investment. We tried to see if we could build a model that could predict the price of energy, as well as demand, reliably in the real-time wholesale market.
 
 All energy demand, generation, and price data was pulled from APIs and databases that Mexico's National Center for Energy Control (CENACE) maintains. Weather data corresponding to Monterrey was also pulled from the OpenWeatherAPI on the intuition that weather can drive energy demand.
 
-When it came to CENACE's energy price and demand data, we selected weighted price data corresponding to the region on the Mexican National Grid that Monterrey is in, as well as data on aggregate demand for energy within that region. When it came to generation, we got our hands on generation data at the national level, on the understanding that this generation all goes into the same grid. All generation, demand, and price data covers the period from 2019-2022 inclusive. So does the weather data. 
+When it came to CENACE's energy price and demand data, we selected weighted price data corresponding to the region on the Mexican National Grid that Monterrey is in, as well as data on aggregate demand for energy within that region. When it came to generation, we got our hands on generation data at the national level, on the understanding that this generation all goes into the same grid. All generation, demand, and price data covers the period from 2019-2022 inclusive. So does our weather data. 
 
 #### Conclusions
 
-Of the two energy price models, it was our Random Forest Regressor model that did the best, achieving a RMSE < 300 MXN.
-Our LTSM model, on the other hand, had an average MAPE score that was roughly 2x higher than the government forecast average MAPE score.
+We iterated on linear regression, time-series analyses, and ML models.
+Of our energy price models, our best-performing model was a Random Forest Regressor model which predicted the price of energy within 300 MXN /MWh (RMSE < 300)
+We also developed a univariate Long Short-Term Memory (LSTM) model, a variety of Recurring Neural Network (RNN), in order to model energy demand. This model had a Mean Absolute Percentage Error (MAPE) score roughly 2x as high as the government demand forecast MAPE score over the same period. Given the model was univariate, there's room for improvement in this model if it can be made multivariate and include time series of data such as temperature, among others.
 
 #### Link to Project
 [Energy Demand and Price Forecasting](https://github.com/ralatorr/ralatorr.github.io/tree/main/Energy_Forecasting)
