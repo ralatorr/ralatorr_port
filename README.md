@@ -79,7 +79,7 @@ When it came to CENACE's energy price and demand data, we selected weighted pric
 
 We iterated on linear regression, time-series, and ML models.
 Of our energy price models, our best-performing model was a Random Forest Regressor model which predicted the price of energy within 300 MXN /MWh (RMSE < 300)
-We also developed a univariate Long Short-Term Memory (LSTM) model, a variety of Recurring Neural Network (RNN), in order to model energy demand. This model had a Mean Absolute Percentage Error (MAPE) score roughly 2x as high as the government demand forecast MAPE score over the same period. Given the model was univariate, there's room for improvement in this model if it can be made multivariate and include time series of data such as temperature, among others.
+We also developed a univariate Long Short-Term Memory (LSTM) model, a variety of Recurrent Neural Network (RNN), in order to model energy demand. This model had a Mean Absolute Percentage Error (MAPE) score roughly 2x as high as the government demand forecast MAPE score over the same period. Given the model was univariate, there's room for improvement in this model if it can be made multivariate and include time series of data such as temperature, among others.
 
 #### Link to Project
 [Energy Demand and Price Forecasting](https://github.com/ralatorr/ralatorr.github.io/tree/main/Energy_Forecasting)
